@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+cutadapt==4.7
+HTSeq==0.14.0
+pysam==0.21.0 
