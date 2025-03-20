@@ -17,8 +17,16 @@ This should open a jupyter notebook on port 8888.
 For more information on using uv with jupyter notebook see [here](https://docs.astral.sh/uv/guides/integration/jupyter/).
 
 
-## Process
-- FastQC
-- star
-- trimmomatic(cutadapt)
-- featureCounts(HTSeq)
+## Process/Tools
+- FastQC(File format for this dataset)
+- Trim(cutadapt)
+- Mapping(Star alignment)
+- Quantification(featureCounts)
+
+## Setup for tools
+- Cutadapt
+This is already installed via uv as a dependency of this project.
+- Star Alignment
+This was needed to be installed manually and compiled from source. 
+The repository can be found [here](https://github.com/alexdobin/STAR).
+

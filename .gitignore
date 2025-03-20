@@ -9,3 +9,7 @@ profile_default/
 ipython_config.py
 
 .env
+
+# This is a directory for tools that are used in the project, but are not tracked because it is specific to my device and should not be shared.
+# README.md has directions for these tools.
+tools/
